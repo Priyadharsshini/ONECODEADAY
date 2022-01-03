@@ -19,3 +19,4 @@ func main() {
 		}
 	}
 }
+//We go over the string two time which is O(2N) which is O(N) but has space complexity which is O(1)
