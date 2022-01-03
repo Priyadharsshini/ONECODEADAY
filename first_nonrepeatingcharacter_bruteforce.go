@@ -24,3 +24,5 @@ func main() {
 
 	}
 }
+
+//O(N^2) since two nested for loops going over the entire string
