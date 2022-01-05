@@ -5,7 +5,7 @@ import "fmt"
 var a []string
 
 func paranthesisChecker(s string) {
-	if len(s)/2 != 0 {
+	if len(s)%2 != 0 {
 		fmt.Println("Invalid")
 		return
 	}
